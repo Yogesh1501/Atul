@@ -253,5 +253,10 @@ p {
     font-size: 18px;
     padding: 60px 0 20px;
 }
-
-    
+@media screen and (max-width: 600px)
+{
+    h1{
+        font-size:36px ;
+        line-height: 50px;
+    }
+}
