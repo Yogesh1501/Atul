@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: 'Arial', sans-serif;
 }
-
 .container {
     width: 80%;
     margin: 0 auto;
@@ -26,59 +25,6 @@ header h1 {
 
     text-align: center;
     font-weight: bold;
-
-body{
-    font-family: 'Poppins', sans-serif;
-}
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-nav{
-    flex: 1 ;
-    text-align: right;
-}
-nav ul{
-    display : inline-block;
-    list-style-type:none;
-}
-nav ul li{
-    display : inline-block;
-    margin-right : 20px;
-}
-a{
-    text-decoration: none;
-    color: #555;
-}
-p{
-    color: #555;
-}
-.container{
-    max-width:1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.col-2{
-    flex-basis:50%;
-    min-width: 300px;
-}
-.col-2 img{
-    max-width:100%;
-    padding: 50px 0;
-}
-.col-2 h1{
-    font-size:50px;
-    line-height:60px;
-    margin: 25px 0;
->>>>>>> 490ae387e583b8ea829f507b634e17f8e85a977a
 }
 .btn{
     display: block;
@@ -392,38 +338,8 @@ a span img {
     z-index: 10;
 
 }
-
 .footer-col-2{
         background: black;
         color: #8a8a8a;
         padding: 20px 0;     
 }
-.feedback-video {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-  }
-  
-.flex-item-left {
-    flex: 50%;
-    max-width: 500px;
-    text-align: center;
-    margin: 20px;
-  }
-  
-.flex-item-right {
-    flex: 50%;
-    max-width: 500px;
-    text-align: center;
-    margin: 20px;
-  }
-
-.flex-item-left video, .flex-item-right video {
-    max-width: fit-content;
-  }
-.video-info{
-    
-    text-align: center;
-    margin: 20px;
-  }
