@@ -1,64 +1,35 @@
-*{
-    margin : 0 ;
+body {
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.col-2 {
+    background:radial-gradient(#fff,rgba(255, 162, 57, 0.867));
+    color: #070000;
+    padding: 20px 0;
+    
+}
+header h1 {
+    margin: 10px;
+    text-align: center;
+    height: auto;
+    /* float: left; */
+}
+.col-2 p{
+    margin: 0;
 
-body{
-    font-family: 'Poppins', sans-serif;
-}
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-nav{
-    flex: 1 ;
-    text-align: right;
-}
-nav ul{
-    display : inline-block;
-    list-style-type:none;
-}
-nav ul li{
-    display : inline-block;
-    margin-right : 20px;
-}
-a{
-    text-decoration: none;
-    color: #555;
-}
-p{
-    color: #555;
-}
-.container{
-    max-width:1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.col-2{
-    flex-basis:50%;
-    min-width: 300px;
-}
-.col-2 img{
-    max-width:100%;
-    padding: 50px 0;
-}
-.col-2 h1{
-    font-size:50px;
-    line-height:60px;
-    margin: 25px 0;
-    background:radial-gradient(#fff,rgba(255, 229, 173, 0.867));
+    text-align: center;
+    font-weight: bold;
 }
 .btn{
-    display: inline-block;
+    display: block;
+    text-align: center;
+    width: 200px;
     background : #ff523b;
     color: #fff;
     padding: 8px 30px;
@@ -69,23 +40,66 @@ p{
 .btn:hover{
     background: #563434;
 }
-.header{
-    background:radial-gradient(#fff,rgba(255, 162, 57, 0.867));
+.col-2 img{
+    margin: 0;
+    max-width:100%;
+    padding: 50px 0;;
+}
+.nav {
+    float: none;
+    background-color: #ff0202;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #020000;
+    font-weight: bold;
+}
+
+.social-icons {
+    float: right;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the width of social icons as needed */
+    height: auto;
 }
 .header .row{
     margin-top: 70px ;
 }
 .categories{
     margin: 70px 0;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .col-3{
     flex-basis: 10%;
     min-width: 250px;
     margin-bottom: 30px;
     background:radial-gradient(#fff,rgba(255, 162, 57, 0.867));
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .col-3 img{
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
  /* .small-container{  
     max-width: 1080px;
@@ -107,8 +121,7 @@ p{
     width: 300%;
 }
 */
-.title{
-    
+.title{   
     text-align: center;
     margin: 0 auto 50px;
     position: relative;
@@ -135,13 +148,6 @@ h4{
 .col-4 p {
     font-size: 20px;
 }
-
-
-
-
-
-
-
 .footer {
     background: #000;
     color: #8a8a8a;
@@ -165,10 +171,20 @@ body {
     padding-left: 25px;
     padding-right: 25px;
 }
-
-
-
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 18px;
+    padding: 60px 0 20px;
+}
 .row {
     text-align: center;
 }
@@ -258,13 +274,16 @@ p {
     justify-content: center;
     height: 200;
 }
-
-img {
+.col-3 img {
     max-width: 90%;
-    height: auto;
+    height: 250px;
     margin: 10px;
 }
-
+.col-4 img {
+    max-width: 200px;
+    height: 250px;
+    margin: 10px;
+}
 @media (max-width: 500px) {
     .small-container {
         flex-direction: column;
@@ -282,4 +301,45 @@ a span img {
 }
 .small-container{
     background-color: #f1eedd;
+}
+.content{
+    background: #ecdbdb;
+    text-align: center;
+    color: #8a8a8a;
+    font-size: 18px;
+    padding: 20px 0 20px;
+}
+.a1{
+    background: rgb(253, 237, 146);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    text-transform: inherit;
+}
+.a2{
+    background: #ffffff;
+    text-align: center;
+    color: #000000;
+    margin: auto;
+    font-size: medium;
+}
+.footer-col-4{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 18px;
+    padding: 60px 0 20px;
+}
+.whatsapp_main{
+    position: fixed;
+    width:"3%";
+    bottom: 40px;
+    right: 20px;
+    text-align: right;
+    z-index: 10;
+
+}
+.footer-col-2{
+        background: black;
+        color: #8a8a8a;
+        padding: 20px 0;     
 }
