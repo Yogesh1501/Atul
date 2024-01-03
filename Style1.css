@@ -115,7 +115,7 @@ p{
     line-height: 30px;
     color: #555;
 }
-/* .title::after{ */
+/* .title::after{ 
     content :'';
     background: #ff523b;
     width: 300px;
@@ -127,7 +127,7 @@ p{
     transform:translateX(-50);
     margin: -10px;
     text-underline-position: auto;
-}
+}*/
 h4{
     color: #555;
     font-weight: normal;
@@ -165,20 +165,9 @@ body {
     padding-left: 25px;
     padding-right: 25px;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-div {
-    display: block;
-}
-.footer {
-    background: #000;
-    color: #8a8a8a;
-    font-size: 18px;
-    padding: 60px 0 20px;
-}
+
+
+
 
 .row {
     text-align: center;
